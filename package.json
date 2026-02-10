@@ -1,0 +1,23 @@
+{
+    "name": "geo42-presentation-deck",
+    "version": "2.0.0",
+    "description": "GEO 42 — Enterprise brand presentation deck generator. Programmatic PPTX creation with brand book compliance.",
+    "main": "src/geo42_v2.js",
+    "scripts": {
+          "build": "node src/geo42_v2.js",
+          "build:legacy": "node src/legacy/geo42_deck_v1.js"
+    },
+    "dependencies": {
+          "pptxgenjs": "^3.12.0",
+          "react": "^18.2.0",
+          "react-dom": "^18.2.0",
+          "react-icons": "^4.12.0",
+          "sharp": "^0.33.2"
+    },
+    "engines": {
+          "node": ">=18.0.0"
+    },
+    "keywords": ["pptx", "presentation", "geo", "brand-deck", "pptxgenjs"],
+    "license": "UNLICENSED",
+    "private": true
+}
