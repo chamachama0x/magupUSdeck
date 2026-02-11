@@ -5,3 +5,7 @@ node_modules/
 *.pdf
 .DS_Store
 __MACOSX/
+
+# Allow exports folder assets
+!exports/**/*.png
+!exports/**/*.pdf
