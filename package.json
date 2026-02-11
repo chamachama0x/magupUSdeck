@@ -17,7 +17,13 @@
   "engines": {
     "node": ">=18.0.0"
   },
-  "keywords": ["pptx", "presentation", "geo", "brand-deck", "pptxgenjs"],
+  "keywords": [
+    "pptx",
+    "presentation",
+    "geo",
+    "brand-deck",
+    "pptxgenjs"
+  ],
   "license": "UNLICENSED",
   "private": true
 }
